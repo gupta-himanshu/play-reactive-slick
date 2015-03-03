@@ -1,0 +1,3 @@
+# Messages
+
+employees.list.title={0,choice,0#No employees|1#One employee|1<{0,number,integer} employees} found

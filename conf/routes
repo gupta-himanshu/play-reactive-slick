@@ -1,0 +1,23 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Default path will just redirect to the employee list
+GET    /                       controllers.Application.index
+
+# Employees list (look at the default values for pagination parameters)
+GET    /employees              controllers.Application.list(p:Int ?= 0, s:Int ?= 2, f ?= "")
+
+# Add employee
+GET    /employees/new          controllers.Application.create
+POST   /employees              controllers.Application.save
+
+# Edit existing employee
+GET    /employees/:id          controllers.Application.edit(id:Long)
+POST   /employees/:id          controllers.Application.update(id:Long)
+
+# Delete an employee
+POST   /employees/:id/delete   controllers.Application.delete(id:Long)
+
+# Map static resources from the /public folder to the /assets URL path
+GET    /assets/*file           controllers.Assets.at(path="/public", file)
