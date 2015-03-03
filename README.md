@@ -1,7 +1,5 @@
 # play-reactive-slick
 
-# playing-reactive-slick
-
 Building Reactive Play application with Slick 3.0
 
 -----------------------------------------------------------------------
