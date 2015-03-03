@@ -16,5 +16,5 @@ Building Reactive Play application with Slick 3.0
 ###References :-
 -----------------------------------------------------------------------
 * [Play Framework](http://www.playframework.com/)
-* [Reactive Slick](http://slick.typesafe.com/doc/3.0.0-RC1/)
+* [Reactive Slick](https://github.com/slick/slick/tree/3.0.0-RC1)
 * [Slick - Functional Relational Mapping for Scala](http://slick.typesafe.com/)
